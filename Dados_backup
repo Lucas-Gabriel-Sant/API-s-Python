@@ -1,0 +1,102 @@
+{
+    "hoteis": [
+        {
+            "hotel_id": "rabbit",
+            "nome": "Rabbit Hotel",
+            "ranking": 4.9,
+            "diaria": 759.0,
+            "estado": "Espírito Santo",
+            "site_id": 2
+        },
+        {
+            "hotel_id": "mouse",
+            "nome": "Mouse Hotel",
+            "ranking": 4.3,
+            "diaria": 593.0,
+            "estado": "São Paulo",
+            "site_id": 2
+        },
+        {
+            "hotel_id": "bear",
+            "nome": "Bear Hotel",
+            "ranking": 2.7,
+            "diaria": 342.0,
+            "estado": "Espírito Santo",
+            "site_id": 2
+        },
+        {
+            "hotel_id": "horse",
+            "nome": "Horse Hotel",
+            "ranking": 3.9,
+            "diaria": 486.0,
+            "estado": "Amazonas",
+            "site_id": 3
+        },
+        {
+            "hotel_id": "cat",
+            "nome": "Cat Hotel",
+            "ranking": 4.1,
+            "diaria": 532.0,
+            "estado": "Amazonas",
+            "site_id": 3
+        },
+        {
+            "hotel_id": "fly",
+            "nome": "Fly Hotel [Alterado]",
+            "ranking": 4.1,
+            "diaria": 532.0,
+            "estado": "São Paulo",
+            "site_id": 4
+        },
+        {
+            "hotel_id": "arara",
+            "nome": "Arara Hotel",
+            "ranking": 5.0,
+            "diaria": 893.0,
+            "estado": "Santa Catarina",
+            "site_id": 4
+        },
+        {
+            "hotel_id": "tucano",
+            "nome": "Tucano Hotel",
+            "ranking": 4.8,
+            "diaria": 798.0,
+            "estado": "Santa Catarina",
+            "site_id": 4
+        },
+        {
+            "hotel_id": "duck",
+            "nome": "Duck Hotel",
+            "ranking": 3.2,
+            "diaria": 798.0,
+            "estado": "São Paulo",
+            "site_id": 4
+        },
+        {
+            "hotel_id": "capybara",
+            "nome": "Capybara Hotel",
+            "ranking": 5.0,
+            "diaria": 999.0,
+            "estado": "Santa Catarina",
+            "site_id": 4
+        },
+        {
+            "hotel_id": "wolf",
+            "nome": "Wolf Hotel Alterado",
+            "ranking": 4.6,
+            "diaria": 693.0,
+            "estado": "Santa Catarina",
+            "site_id": 4
+        }
+    ]
+}
+
+{
+    "sites": "www.siteum.com", "www.sitedois.com", "www.sitetres.com", "www.sitequatro.com"
+}
+
+{
+    "users": "joca": "qwerty"
+             "valdemar": "abcd"
+             "josevaldo": "wasd"
+}

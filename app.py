@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask_restful import Api
 
 from resources.hotel import Hoteis, Hotel
-from resources.usuario import User, UserRegister, UserLogin, UserLogout
+from resources.usuario import User, UserRegister, UserLogin, UserLogout, UserConfirm
 from resources.site import Site, Sites, SiteMedia
 from flask_jwt_extended import JWTManager
 from blacklist import BLACKLIST
@@ -40,6 +40,7 @@ api.add_resource(UserLogout, '/logout')
 api.add_resource(Sites, '/sites')
 api.add_resource(Site, '/sites/<string:url>')
 api.add_resource(SiteMedia, '/sites/media')
+api.add_resource(UserConfirm, '/confirmacao/<int:user_id>')
 
 if __name__ == '__main__':
     from sql_alquemy import banco
